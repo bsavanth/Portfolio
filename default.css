@@ -17,7 +17,7 @@
 
 
 }
-f
+
 
 html, body{
 	padding: 0;
@@ -31,7 +31,7 @@ body *{
 
 
 h1, h2, h3, h4, h5, h6, strong{
-	color: var(--mainText);
+	color: #176d82;
 	font-family: 'Russo One', sans-serif;
 	font-weight: 500;
 }
@@ -172,7 +172,7 @@ h6 { font-size: 16px;}
 #profile_pic{
 	display: block;
 	margin:0 auto;
-
+	margin-left: 200px;
 	height: 200px;
 	width: 200px;
 	object-fit: cover;
@@ -294,6 +294,18 @@ h6 { font-size: 16px;}
 	gap:100px;
 }
 
+#resume
+{
+		background: black;
+		border-radius: 10px;
+		border-style:outset;
+		font-size: 14px;
+}
+
+#mysomeprojects
+{
+	border-color:black;
+}
 
 #skills{
 	display: flex;
