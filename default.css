@@ -1,11 +1,11 @@
 :root{
-	--mainColor:#eaeaea;
+	--mainColor:#000000;
 	--secondaryColor:#fff;
 
 	--borderColor:#c1c1c1;
 
 	--mainText:black;
-	--secondaryText:#4b5156;
+	--secondaryText:#4b5156f;
 
 	--themeDotBorder:#24292e;
 
@@ -17,7 +17,7 @@
 
 
 }
-
+f
 
 html, body{
 	padding: 0;
@@ -309,6 +309,14 @@ h6 { font-size: 16px;}
 
 #social_img{
 	width: 100%;
+	border: 1px solid black;
+}
+
+a:hover
+{
+
+	color: red;
+
 }
 
 
@@ -364,6 +372,7 @@ h6 { font-size: 16px;}
 
 #contact-form label{
 	line-height: 2.7em;
+	color:white;
 }
 
 #contact-form textarea{
